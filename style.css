@@ -53,3 +53,17 @@ h2, figcaption, .quote {
 body {
     font-family: 'roboto', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.header-img {
+    width: 400px;
+    height: 200px;
+}
+
+.main-img {
+    width: 100px;
+    height: 100px;
+}
