@@ -1,0 +1,27 @@
+header, footer {
+    background-color: #1f2937;
+}
+
+h1 {
+    color: #f9faf8;
+}
+
+body, a, button {
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+h2, figcaption, .quote {
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.click {
+    background-color: #3882f6;
+}
