@@ -41,3 +41,15 @@ h2, figcaption, .quote {
 .information-text, .quote {
     font-size: 36px;
 }
+
+.main-text, .information-text {
+    font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+}
