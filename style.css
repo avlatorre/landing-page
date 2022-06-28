@@ -25,3 +25,19 @@ h2, figcaption, .quote {
 .click {
     background-color: #3882f6;
 }
+
+.main-text {
+    font-size: 48px;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+.information-text, .quote {
+    font-size: 36px;
+}
