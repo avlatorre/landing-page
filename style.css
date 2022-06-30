@@ -1,68 +1,52 @@
+* {
+    margin: 0;
+}
 header, footer {
     background-color: #1f2937;
 }
-
 h1 {
     color: #f9faf8;
 }
-
 body, a, button {
     color: #e5e7eb;
 }
-
-button {
+button, .click {
     background-color: #3882f6;
 }
-
 h2, figcaption, .quote {
     color: #1f2937;
 }
-
 .quote {
     background-color: #e5e7eb;
 }
-
-.click {
-    background-color: #3882f6;
-}
-
 .main-text {
     font-size: 48px;
 }
-
 .secondary-text {
     font-size: 18px;
 }
-
 .logo-text {
     font-size: 24px;
 }
-
 .information-text, .quote {
     font-size: 36px;
 }
-
 .main-text, .information-text {
     font-weight: 900;
 }
-
 .italic {
     font-style: italic;
 }
-
 body {
     font-family: 'roboto', sans-serif;
 }
-
 ul {
     list-style-type: none;
 }
-
 .header-img {
     width: 400px;
     height: 200px;
 }
-
 .main-img {
     width: 100px;
     height: 100px;
