@@ -53,3 +53,12 @@ ul {
     border: 2px solid #3882f6;
     border-radius: 10px;
 }
+.container {
+    display: flex;
+    margin: 6rem 3rem 3rem 3rem;
+    align-items: center;
+    gap: 3rem;
+}
+.item {
+    flex: auto;
+}
