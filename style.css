@@ -3,12 +3,16 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: 'roboto', sans-serif;
 }
 header, footer {
     background-color: #1f2937;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto;
+}
+footer {
+    text-align: center;
 }
 h1 {
     color: #f9faf8;
@@ -34,6 +38,9 @@ h2, figcaption, .quote {
 .logo-text {
     font-size: 24px;
 }
+.information-text {
+    text-align: center;
+}
 .information-text, .quote {
     font-size: 36px;
 }
@@ -42,9 +49,6 @@ h2, figcaption, .quote {
 }
 .italic {
     font-style: italic;
-}
-body {
-    font-family: 'roboto', sans-serif;
 }
 ul {
     list-style-type: none;
@@ -61,12 +65,13 @@ ul {
 }
 .container {
     display: flex;
-    margin: 6rem 3rem 3rem 3rem;
+    margin: 6rem auto 3rem;
     align-items: center;
     gap: 3rem;
 }
 .item {
-    flex: auto;
+    flex: 2;
+    text-align: center;
 }
 main {
     flex-grow: 1;
