@@ -35,7 +35,7 @@ h2, figcaption, .quote {
 .secondary-text {
     font-size: 18px;
 }
-.logo-text {
+.logo-text, .action {
     font-size: 24px;
 }
 .information-text {
@@ -52,6 +52,9 @@ h2, figcaption, .quote {
 }
 ul {
     list-style-type: none;
+}
+.action {
+    font-weight: 900;
 }
 .header-img {
     width: 400px;
@@ -77,4 +80,9 @@ main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-  }
+}
+.click {
+    margin: 3rem 6rem;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
