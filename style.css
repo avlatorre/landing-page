@@ -34,6 +34,7 @@ h2, figcaption, .quote {
 }
 .main-text {
     font-size: 48px;
+    margin-bottom: -10px;
 }
 .secondary-text {
     font-size: 18px;
@@ -70,7 +71,7 @@ li {
     width: 400px;
     height: 200px;
     margin-top: 3rem;
-    margin-left: 6rem;
+    margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 6rem;
     float: right;
