@@ -48,11 +48,15 @@ h2, figcaption, .quote {
 .information-text, .quote {
     font-size: 36px;
 }
-.main-text, .information-text {
+.main-text, .information-text, .bold {
     font-weight: 900;
 }
 .italic {
     font-style: italic;
+    float: left;
+}
+.bold {
+    float: right;
 }
 ul {
     list-style-type: none;
@@ -118,6 +122,7 @@ h1 {
 }
 .quote {
     padding: 3rem 6rem;
+    min-height: 650px;
 }
 .logo-text {
     margin-left: 3rem;
@@ -132,6 +137,9 @@ h1 {
     }
     .click {
         min-height: 120px;
+    }
+    .quote {
+        min-height: 500px;
     }
 }
 @media (min-width: 900px) {
@@ -150,6 +158,14 @@ h1 {
     }
     .second {
         margin-right: 3rem;
+    }
+    .quote {
+        min-height: 300px;
+    }
+}
+@media (min-width: 1200px) {
+    .quote {
+        min-height: 200px;
     }
 }
 button {
