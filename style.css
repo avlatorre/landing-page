@@ -56,7 +56,9 @@ h2, figcaption, .quote {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
 li {
     flex: auto;
@@ -67,6 +69,16 @@ li {
 .header-img {
     width: 400px;
     height: 200px;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-right: 3rem;
+    margin-bottom: 6rem;
+    float: right;
+}
+.left {
+    float: left;
+    max-width: 500px;
+    margin-left: 3rem;
 }
 .main-img {
     width: 100px;
@@ -103,4 +115,7 @@ h1 {
 }
 .quote {
     padding: 3rem 6rem;
+}
+.logo-text {
+    margin-left: 3rem;
 }
