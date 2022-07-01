@@ -96,6 +96,7 @@ li {
 .item {
     flex: auto;
     text-align: center;
+    margin-bottom: 3rem;
 }
 main {
     flex-grow: 1;
