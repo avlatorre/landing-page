@@ -68,8 +68,8 @@ li {
     font-weight: 900;
 }
 .header-img {
-    width: 400px;
-    height: 200px;
+    max-width: 400px;
+    max-height: 200px;
     margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
