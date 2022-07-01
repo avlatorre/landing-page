@@ -104,7 +104,7 @@ main {
     flex-basis: auto;
 }
 .click {
-    margin: 3rem 3rem;
+    margin: 2rem 2rem;
     padding: 1rem 1rem;
     border-radius: 10px;
     min-height: 140px;
@@ -131,7 +131,7 @@ h1 {
         height: 100%;
     }
     .click {
-        min-height: 80px;
+        min-height: 120px;
     }
 }
 @media (min-width: 900px) {
@@ -146,6 +146,7 @@ h1 {
         margin-right: 3rem;
         padding-left: 3rem;
         padding-right: 3rem;
+        min-height: 80px;
     }
     .second {
         margin-right: 3rem;
