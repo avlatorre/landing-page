@@ -104,9 +104,10 @@ main {
     flex-basis: auto;
 }
 .click {
-    margin: 3rem 6rem;
-    padding: 1rem 3rem;
+    margin: 3rem 3rem;
+    padding: 1rem 1rem;
     border-radius: 10px;
+    min-height: 140px;
 }
 h1 {
     flex: 1;
@@ -129,6 +130,9 @@ h1 {
         width: 100%;
         height: 100%;
     }
+    .click {
+        min-height: 80px;
+    }
 }
 @media (min-width: 900px) {
     .container {
@@ -136,6 +140,15 @@ h1 {
         align-items: center;
         justify-content: center;
         margin-bottom: 3rem;
+    }
+    .click {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .second {
+        margin-right: 3rem;
     }
 }
 button {
@@ -148,4 +161,8 @@ button {
 }
 .second {
     border: solid 2px#e5e7eb;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    float: right;
 }
