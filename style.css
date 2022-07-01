@@ -76,12 +76,12 @@ li {
 }
 .container {
     display: flex;
-    margin: 6rem auto 3rem;
     align-items: center;
-    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 3rem;
 }
 .item {
-    flex: 2;
+    flex: auto;
     text-align: center;
 }
 main {
